@@ -42,5 +42,5 @@ export function renderPhotos(photos, domElem) {
         }
       )
       .join('');
-    domElem.innerHTML = markup;
+      domElem.insertAdjacentHTML('beforeend', markup);
   }
