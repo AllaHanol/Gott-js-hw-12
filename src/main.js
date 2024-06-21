@@ -7,6 +7,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import './css/styles.css';
 import imageUrl from './img/bi_x-octagon.png';
+import axios from 'axios';
 
 const refs = {
   loader: document.querySelector('.loader'),
